@@ -1,0 +1,147 @@
+main {
+    display: grid;
+    grid-template-areas: 
+        "header"
+        "sor1"
+        "sor2";
+        gap: 20px;
+}
+
+.sor1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "fa1 fa2 fa3";
+    gap: 20px;
+    grid-area: sor1;
+    padding: 10px;
+    height: 500px;
+}
+
+.sor2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "fa4 fa5 fa6";
+    gap: 20px;
+    grid-area: sor2;
+    padding: 10px;
+    height: 500px
+}
+
+.sor1 img, .sor2 img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+header{
+    grid-area: header;
+}
+
+@media (max-width: 500px) {
+    main {
+        display: grid;
+        grid-template-areas:
+        "header"
+        "sor1"
+        "sor2";      
+        gap: 10px;
+    }
+
+    .sor1 {
+        display: grid;
+        grid-area: sor1;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "fa1"
+        "fa2"
+        "fa3";
+        gap: 10px;
+        width: 100%;
+    }
+
+    .sor2 {
+        display: grid;
+        grid-area: sor2 ;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "fa4"
+        "fa5"
+        "fa6";
+        gap: 10px;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+#fa1 {    
+    grid-area: fa1;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa1 .hover {
+
+}
+
+#fa2 {    
+    grid-area: fa2;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa2 .hover {
+
+}
+
+#fa3 {    
+    grid-area: fa3;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa3.hover {
+
+}
+
+#fa4 {    
+    grid-area: fa4;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa4 .hover {
+
+}
+
+#fa5 {    
+    grid-area: fa5;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa5 .hover {
+
+}
+
+#fa6 {    
+    grid-area: fa6;
+    background-color: lime;
+    border: 1px, solid;
+    border-radius: 30px;
+}
+
+#fa6 .hover {
+
+}

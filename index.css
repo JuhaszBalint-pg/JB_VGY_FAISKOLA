@@ -1,29 +1,24 @@
 main {
     display: grid;
     grid-template-areas: 
-        "nav"
-        "item3";
-    gap: 5%;
-}
-
-nav {
-    display: grid;
-    grid-template-areas: "item1 item2";
-    gap: 10%;
+        "header header header header header"
+        "item1 item3 item3 item3 item2"
+        "footer footer footer footer footer";
+    gap: 20px;
+    height: 100%;
 }
 
 
 @media (max-width: 500px){
     main {
         grid-template-areas:
-        "nav"
-        "item3";  
-    }
-
-    nav {
-        display: grid;
-        grid-template-areas: "item1"
-                             "item2";
+        "header"
+        "item1"
+        "item2"
+        "item3"
+        "footer";
+        height: 100%;
+        gap: 10px;  
     }
 }
 
@@ -32,6 +27,10 @@ nav {
     background-color: greenyellow;
     grid-area: item1;
     padding: 5%;
+    align-content: center;
+    height: 95%;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 #item1.hover {
@@ -43,6 +42,10 @@ nav {
     background-color: greenyellow;
     grid-area: item2;
     padding: 5%;
+    align-content: center;
+    height: 95%;
+    border-radius: 30px;
+    margin-bottom: 30px;
 }
 
 #item2.hover {
@@ -53,8 +56,19 @@ nav {
     background-color: greenyellow;
     grid-area: item3;
     padding: 15%;
+    height: 26% ;
+    border-radius: 30px;
+    margin-bottom: 40px;
 }   
 
 #item.hover {
 
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
 }
