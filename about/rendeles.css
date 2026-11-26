@@ -2,10 +2,16 @@ main {
     align-items: center;
     align-content: center;
     width: 100%;
+    color: white;
 }
 
 fieldset {
     border-radius: 30px;
-    margin-bottom: 10vw;
+    margin-bottom: 30px;
     height: 700px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px black;
 }

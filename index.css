@@ -10,12 +10,13 @@
 }
 
 #item1  {
-/*     background-image: ; */
-    background-color: greenyellow;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: item1;
     padding: 5%;
     align-content: center;
     border-radius: 30px;
+    border: 1px solid black;
 }
 
 #item1.hover {
@@ -23,12 +24,13 @@
 }
 
 #item2 {
-/*     background-image: ; */
-    background-color: greenyellow;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: item2;
     align-content: center;
     padding: 5%;
     border-radius: 30px;
+    border: 1px solid black;
 }
 
 #item2.hover {
@@ -36,10 +38,12 @@
 }
 
 #item3 {
-    background-color: greenyellow;
+    background-color: rgba(0, 0, 0, 0.5);
     grid-area: item3;
     padding: 5%;
     border-radius: 30px;
+    color: white;
+    border: 1px solid black;
 }   
 
 #item3.hover {
