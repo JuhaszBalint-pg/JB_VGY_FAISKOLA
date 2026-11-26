@@ -1,5 +1,6 @@
 main {
     display: grid;
+        grid-template-rows: auto minmax(500px, auto) minmax(500px, auto) auto;
     grid-template-areas: 
         "header"
         "sor1"
@@ -16,7 +17,6 @@ main {
     "fa1 fa2 fa3";
     gap: 20px;
     grid-area: sor1;
-    height: 500px;
 }
 
 .sor2 {
@@ -26,7 +26,6 @@ main {
     "fa4 fa5 fa6";
     gap: 20px;
     grid-area: sor2;
-    height: 500px;
 }
 
 .sor1 img, .sor2 img {
@@ -56,6 +55,7 @@ footer {
 @media (max-width: 800px) {
     main {
         display: grid;
+        grid-template-rows: 1fr;
         grid-template-areas:
         "header"
         "sor1"
@@ -88,7 +88,6 @@ footer {
         "fa6";
         gap: 10px;
         width: 100%;
-        
     }
 
     footer {

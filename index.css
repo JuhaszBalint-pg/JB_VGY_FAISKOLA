@@ -45,6 +45,7 @@
     grid-area: item2;
     align-content: center;
     height: 95%;
+    padding: 5%;
     border-radius: 30px;
     margin-bottom: 30px;
 }
