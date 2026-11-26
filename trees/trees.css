@@ -52,6 +52,107 @@ footer {
     padding: 0;
 }
 
+#fa1 {    
+    grid-area: fa1;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa1 .hover {
+
+}
+
+#fa2 {    
+    grid-area: fa2;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa2 .hover {
+
+}
+
+#fa3 {    
+    grid-area: fa3;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa3.hover {
+
+}
+
+#fa4 {    
+    grid-area: fa4;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa4 .hover {
+
+}
+
+#fa5 {    
+    grid-area: fa5;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa5 .hover {
+
+}
+
+#fa6 {    
+    grid-area: fa6;
+    border: 1px, solid;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url("/images/tablebackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+
+#fa6 .hover {
+
+}
 @media (max-width: 800px) {
     main {
         display: grid;
@@ -96,71 +197,7 @@ footer {
     }
 }
 
-#fa1 {    
-    grid-area: fa1;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
 
-#fa1 .hover {
-
-}
-
-#fa2 {    
-    grid-area: fa2;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
-
-#fa2 .hover {
-
-}
-
-#fa3 {    
-    grid-area: fa3;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
-
-#fa3.hover {
-
-}
-
-#fa4 {    
-    grid-area: fa4;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
-
-#fa4 .hover {
-
-}
-
-#fa5 {    
-    grid-area: fa5;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
-
-#fa5 .hover {
-
-}
-
-#fa6 {    
-    grid-area: fa6;
-    background-color: lime;
-    border: 1px, solid;
-    border-radius: 30px;
-}
-
-#fa6 .hover {
-
-}
 
 
 
