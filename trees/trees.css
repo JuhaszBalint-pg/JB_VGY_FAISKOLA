@@ -3,8 +3,10 @@ main {
     grid-template-areas: 
         "header"
         "sor1"
-        "sor2";
+        "sor2"
+        "footer";
         gap: 20px;
+    width: 100%;
 }
 
 .sor1 {
@@ -14,7 +16,6 @@ main {
     "fa1 fa2 fa3";
     gap: 20px;
     grid-area: sor1;
-    padding: 10px;
     height: 500px;
 }
 
@@ -25,27 +26,41 @@ main {
     "fa4 fa5 fa6";
     gap: 20px;
     grid-area: sor2;
-    padding: 10px;
-    height: 500px
+    height: 500px;
 }
 
 .sor1 img, .sor2 img {
-    max-width: 100%;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 10px;
     display: block;
+    margin: 15px auto;
 }
 
 header{
     grid-area: header;
 }
 
-@media (max-width: 500px) {
+footer {
+    grid-area: footer;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 800px) {
     main {
         display: grid;
         grid-template-areas:
         "header"
         "sor1"
-        "sor2";      
+        "sor2"
+        "footer";      
         gap: 10px;
     }
 
@@ -73,10 +88,12 @@ header{
         "fa6";
         gap: 10px;
         width: 100%;
+        
     }
 
     footer {
         width: 100%;
+        grid-area: footer;
     }
 }
 
@@ -145,3 +162,7 @@ header{
 #fa6 .hover {
 
 }
+
+
+
+
