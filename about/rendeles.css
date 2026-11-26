@@ -8,3 +8,16 @@ fieldset {
     border-radius: 30px;
     margin-bottom: 30px;
 }
+
+footer a{
+    display: inline-block;
+    transition: all 1s ease;
+}
+
+footer a:hover{
+    transition: 1s;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.555);
+    transform: scale(1.2);
+}

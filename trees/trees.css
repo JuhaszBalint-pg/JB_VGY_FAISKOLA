@@ -145,3 +145,15 @@ header{
 #fa6 .hover {
 
 }
+
+footer a{
+    display: inline-block;
+    transition: all 1s ease;
+}
+
+footer a:hover{
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgba(128, 128, 128, 0.555);
+    transform: scale(1.2);
+}

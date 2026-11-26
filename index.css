@@ -34,7 +34,20 @@
     margin-bottom: 30px;
 }
 
-#item1.hover {
+body a{
+    background-color: lightgreen;
+    border-radius: 30%;
+    padding: 20px;
+}
+
+.item1-a{
+    display: inline-block;
+    transition: all 1s ease;
+}
+
+.item1-a:hover{
+    background-color: rgb(91, 241, 91);
+    transform: scale(1.2);
 
 }
 
@@ -49,7 +62,14 @@
     margin-bottom: 30px;
 }
 
-#item2.hover {
+.item2-a{
+    display: inline-block;
+    transition: all 1s ease;
+}
+
+.item2-a:hover{
+    background-color: rgb(91, 241, 91);
+    transform: scale(1.2);
 
 }
 
@@ -60,10 +80,6 @@
     height: 95% ;
     border-radius: 30px;
 }   
-
-#item.hover {
-
-}
 
 header {
     grid-area: header;
